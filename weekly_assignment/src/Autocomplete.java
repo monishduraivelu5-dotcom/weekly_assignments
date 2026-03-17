@@ -13,7 +13,7 @@ public class Autocomplete {
             if (s.startsWith(prefix)) res.add(s);
 
         res.sort((a, b) -> freq.get(b) - freq.get(a));
-        return res;
+        return res ;
     }
 
     public static void main(String[] args) {
